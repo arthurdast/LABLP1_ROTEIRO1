@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1563299649 source:c:\users\aluno\desktop\lp1labproject\lp1labproject\main.cpp
+	<iostream>
+	"Data.h"
+
+1563299151 source:c:\users\aluno\desktop\lp1labproject\lp1labproject\src\data.cpp
+	"Data.h"
+	<iostream>
+
+1563298960 c:\users\aluno\desktop\lp1labproject\lp1labproject\include\data.h
+
+1563564181 source:a:\arthur\ufpb\lp1labproject\lp1labproject\main.cpp
+	<iostream>
+	"Data.h"
+	"Invoice.h"
+	"Empregado.h"
+
+1563298960 a:\arthur\ufpb\lp1labproject\lp1labproject\include\data.h
+
+1563556381 source:a:\arthur\ufpb\lp1labproject\lp1labproject\src\data.cpp
+	"Data.h"
+	<iostream>
+
+1563556065 a:\arthur\ufpb\lp1labproject\lp1labproject\include\invoice.h
+	<iostream>
+
+1563556429 source:a:\arthur\ufpb\lp1labproject\lp1labproject\src\invoice.cpp
+	"Invoice.h"
+	<iostream>
+
+1563563284 a:\arthur\ufpb\lp1labproject\lp1labproject\include\empregado.h
+	<iostream>
+
+1563563739 source:a:\arthur\ufpb\lp1labproject\lp1labproject\src\empregado.cpp
+	"Empregado.h"
+	<iostream>
+
+1563564786 source:a:\arthur\ufpb\lp1labproject\lp1labproject\src\pessoa.cpp
+	"Pessoa.h"
+	<iostream>
+
+1563565496 a:\arthur\ufpb\lp1labproject\lp1labproject\include\pessoa.h
+	<iostream>
+
