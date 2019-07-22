@@ -62,7 +62,7 @@
 1563556065 a:\arthur\ufpb\lablp1_roteiro1\include\invoice.h
 	<iostream>
 
-1563642073 source:a:\arthur\ufpb\lablp1_roteiro1\main.cpp
+1563798356 source:a:\arthur\ufpb\lablp1_roteiro1\main.cpp
 	<iostream>
 	"Data.h"
 	"Invoice.h"
@@ -70,6 +70,8 @@
 	"Pessoa.h"
 	"Despesa.h"
 	"ControleDeGastos.h"
+	"Pagamento.h"
+	"ControleDePagamentos.h"
 	<iostream>
 
 1563565546 source:a:\arthur\ufpb\lablp1_roteiro1\src\pessoa.cpp
@@ -79,7 +81,7 @@
 1563565555 a:\arthur\ufpb\lablp1_roteiro1\include\pessoa.h
 	<iostream>
 
-1563642049 source:a:\arthur\ufpb\lablp1_roteiro1\src\controledegastos.cpp
+1563798196 source:a:\arthur\ufpb\lablp1_roteiro1\src\controledegastos.cpp
 	"ControleDeGastos.h"
 	"Despesa.h"
 	<iostream>
@@ -95,4 +97,16 @@
 1563628703 source:a:\arthur\ufpb\lablp1_roteiro1\src\despesa.cpp
 	"Despesa.h"
 	<iostream>
+
+1563796180 source:a:\arthur\ufpb\lablp1_roteiro1\src\pagamento.cpp
+	"Pagamento.h"
+
+1563796157 a:\arthur\ufpb\lablp1_roteiro1\include\pagamento.h
+	<iostream>
+
+1563796955 a:\arthur\ufpb\lablp1_roteiro1\include\controledepagamentos.h
+	"Pagamento.h"
+
+1563797519 source:a:\arthur\ufpb\lablp1_roteiro1\src\controledepagamentos.cpp
+	"ControleDePagamentos.h"
 

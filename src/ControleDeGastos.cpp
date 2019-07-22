@@ -7,11 +7,16 @@ using namespace std;
 //Construtores
 ControleDeGastos::ControleDeGastos()
 {
-
+    for(Despesa &desp : despesas){
+        desp = Despesa();
+    }
 }
 
 ControleDeGastos::ControleDeGastos(Despesa d, int pos)
 {
+    for(Despesa &desp : despesas){
+        desp = Despesa();
+    }
     setDespesa(d,pos);
 }
 
@@ -31,15 +36,15 @@ double ControleDeGastos::calculaTotalDeDespesas()
 {
     double tvalor=0;
 
-    for(int i;i<10;i++){
-            tvalor = tvalor + getdespesas(i).Getvalor();
+    for(Despesa &desp : despesas){
+            tvalor = tvalor + desp.Getvalor();
     }
     return tvalor;
 }
 bool  ControleDeGastos::existeDespesaDoTipo(string tipoDeGasto)
 {
-    for(int i;i<10;i++){
-            if(getdespesas(i).GettipoDeGasto().compare(tipoDeGasto) == 0)
+    for(Despesa &desp : despesas){
+            if(desp.GettipoDeGasto().compare(tipoDeGasto) == 0)
             {
                 return true;
             }
@@ -48,8 +53,8 @@ bool  ControleDeGastos::existeDespesaDoTipo(string tipoDeGasto)
 }
 void ControleDeGastos::toString()
 {
-    for(int i;i<10;i++){
-        cout<<"posicao:"<<i<< " Valor:"<<getdespesas(i).Getvalor()<<" Tipo:"<<  getdespesas(i).GettipoDeGasto()<<"\n";
+    for(Despesa &desp : despesas){
+        cout<<"Valor:"<<desp.Getvalor()<<" Tipo:"<<  desp.GettipoDeGasto()<<"\n";
     }
 }
 
