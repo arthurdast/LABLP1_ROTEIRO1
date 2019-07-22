@@ -6,14 +6,14 @@ class ControleDePagamentos{
 
     public:
         ControleDePagamentos();
-        void setPagamento(Pagamento pagamento);
+        void setPagamento(Pagamento pagamento,int pos);
         double calculaTotalDePagamentos();
         bool existePagamentoParaFuncionario(string nomeFuncionario);
         void toString();
     protected:
 
     private:
-        Pagamento pagamentos[100];
+        Pagamento pagamentos[50];
 };
 
 

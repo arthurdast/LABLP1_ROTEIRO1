@@ -110,3 +110,71 @@
 1563797519 source:a:\arthur\ufpb\lablp1_roteiro1\src\controledepagamentos.cpp
 	"ControleDePagamentos.h"
 
+1563817116 source:c:\users\aluno\desktop\lablp1_roteiro1-master\main.cpp
+	<iostream>
+	"Data.h"
+	"Invoice.h"
+	"Empregado.h"
+	"Pessoa.h"
+	"Despesa.h"
+	"ControleDeGastos.h"
+	"Pagamento.h"
+	"ControleDePagamentos.h"
+	<iostream>
+
+1563784018 c:\users\aluno\desktop\lablp1_roteiro1-master\include\data.h
+
+1563784018 c:\users\aluno\desktop\lablp1_roteiro1-master\include\invoice.h
+	<iostream>
+
+1563784018 c:\users\aluno\desktop\lablp1_roteiro1-master\include\empregado.h
+	<iostream>
+
+1563784018 c:\users\aluno\desktop\lablp1_roteiro1-master\include\pessoa.h
+	<iostream>
+
+1563813461 c:\users\aluno\desktop\lablp1_roteiro1-master\include\despesa.h
+	<iostream>
+
+1563814050 c:\users\aluno\desktop\lablp1_roteiro1-master\include\controledegastos.h
+	"Despesa.h"
+	<iostream>
+
+1563784018 c:\users\aluno\desktop\lablp1_roteiro1-master\include\pagamento.h
+	<iostream>
+
+1563816484 c:\users\aluno\desktop\lablp1_roteiro1-master\include\controledepagamentos.h
+	"Pagamento.h"
+
+1563817492 source:c:\users\aluno\desktop\lablp1_roteiro1-master\src\controledegastos.cpp
+	"ControleDeGastos.h"
+	"Despesa.h"
+	<iostream>
+	<string>
+
+1563817479 source:c:\users\aluno\desktop\lablp1_roteiro1-master\src\controledepagamentos.cpp
+	"ControleDePagamentos.h"
+
+1563784018 source:c:\users\aluno\desktop\lablp1_roteiro1-master\src\data.cpp
+	"Data.h"
+	<iostream>
+
+1563813468 source:c:\users\aluno\desktop\lablp1_roteiro1-master\src\despesa.cpp
+	"Despesa.h"
+	<iostream>
+
+1563784018 source:c:\users\aluno\desktop\lablp1_roteiro1-master\src\empregado.cpp
+	"Empregado.h"
+	<iostream>
+
+1563784018 source:c:\users\aluno\desktop\lablp1_roteiro1-master\src\invoice.cpp
+	"Invoice.h"
+	<iostream>
+
+1563784018 source:c:\users\aluno\desktop\lablp1_roteiro1-master\src\pagamento.cpp
+	"Pagamento.h"
+
+1563784018 source:c:\users\aluno\desktop\lablp1_roteiro1-master\src\pessoa.cpp
+	"Pessoa.h"
+	<iostream>
+

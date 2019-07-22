@@ -9,10 +9,11 @@ class Despesa
     public:
         Despesa();
         Despesa(double valor,string tipoDeGasto);
-        double Getvalor();
-        void Setvalor(double valor);
-        string GettipoDeGasto();
-        void SettipoDeGasto(string tipoDeGasto);
+        double getvalor();
+        void setvalor(double valor);
+        string gettipoDeGasto();
+        void settipoDeGasto(string tipoDeGasto);
+        void toString();
 
     protected:
 

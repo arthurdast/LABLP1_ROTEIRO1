@@ -2,20 +2,13 @@
 
 //contrutor
 ControleDePagamentos::ControleDePagamentos(){
-    for(Pagamento &pagamento : pagamentos){
-        pagamento = Pagamento();
-    }
+
 }
 //END contrutor
 
 //GET SET
-void ControleDePagamentos::setPagamento(Pagamento pagamento) {
-    for(Pagamento &pgt : pagamentos){
-        if(pgt.getNomeDoFuncionario()== "vazio" && pgt.getValorPagamento() == 0.0){
-            pgt = pagamento;
-            break;
-        }
-    }
+void ControleDePagamentos::setPagamento(Pagamento pagamento,int pos) {
+    pagamentos[pos] = pagamento ;
 }
 //END GET E SET
 
@@ -23,15 +16,15 @@ void ControleDePagamentos::setPagamento(Pagamento pagamento) {
 //FUNCTIOn
 double ControleDePagamentos::calculaTotalDePagamentos() {
     double total=0.0;
-    for(Pagamento a :pagamentos){
-        total += a.getValorPagamento();
+    for(int i = 0 ; i < 50 ; i++){
+       total +=pagamentos[i].getValorPagamento();
     }
     return total;
 }
 
 bool ControleDePagamentos::existePagamentoParaFuncionario(string nomeFuncionario) {
-    for(Pagamento a :pagamentos){
-       if(a.getNomeDoFuncionario() == nomeFuncionario){
+    for(int i = 0 ; i < 50 ; i++){
+       if(!pagamentos[i].getNomeDoFuncionario().compare(nomeFuncionario) ){
            return true;
        }
     }
@@ -40,8 +33,8 @@ bool ControleDePagamentos::existePagamentoParaFuncionario(string nomeFuncionario
 
 void ControleDePagamentos::toString(){
 
-    for(Pagamento a :pagamentos){
-        cout << a.getValorPagamento() << endl;
+    for(int i = 0 ; i < 50 ; i++){
+        cout << pagamentos[i].getValorPagamento() << endl;
     }
 
 }

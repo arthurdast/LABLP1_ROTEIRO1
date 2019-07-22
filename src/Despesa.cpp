@@ -10,25 +10,30 @@ Despesa::Despesa()
 
 Despesa::Despesa(double valor,string tipoDeGasto)
 {
-   Setvalor(valor);
-   SettipoDeGasto(tipoDeGasto);
+   setvalor(valor);
+   settipoDeGasto(tipoDeGasto);
 
 }
 
 
-double Despesa::Getvalor()
+double Despesa::getvalor()
 {
     return valor;
 }
-void Despesa::Setvalor(double val)
+void Despesa::setvalor(double val)
 {
     valor = val;
 }
-string Despesa::GettipoDeGasto()
+string Despesa::gettipoDeGasto()
 {
     return tipoDeGasto;
 }
-void Despesa::SettipoDeGasto(string val)
+void Despesa::settipoDeGasto(string val)
 {
     tipoDeGasto = val;
+}
+
+void Despesa::toString()
+{
+     cout<<"Valor:"<<getvalor()<<" Tipo:"<<  gettipoDeGasto()<<"\n";
 }
