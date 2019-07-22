@@ -34,12 +34,16 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/ControleDeGastos.h" />
 		<Unit filename="include/Data.h" />
+		<Unit filename="include/Despesa.h" />
 		<Unit filename="include/Empregado.h" />
 		<Unit filename="include/Invoice.h" />
 		<Unit filename="include/Pessoa.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/ControleDeGastos.cpp" />
 		<Unit filename="src/Data.cpp" />
+		<Unit filename="src/Despesa.cpp" />
 		<Unit filename="src/Empregado.cpp" />
 		<Unit filename="src/Invoice.cpp" />
 		<Unit filename="src/Pessoa.cpp" />

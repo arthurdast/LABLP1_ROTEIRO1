@@ -42,3 +42,57 @@
 1563565496 a:\arthur\ufpb\lp1labproject\lp1labproject\include\pessoa.h
 	<iostream>
 
+1563556381 source:a:\arthur\ufpb\lablp1_roteiro1\src\data.cpp
+	"Data.h"
+	<iostream>
+
+1563298960 a:\arthur\ufpb\lablp1_roteiro1\include\data.h
+
+1563563739 source:a:\arthur\ufpb\lablp1_roteiro1\src\empregado.cpp
+	"Empregado.h"
+	<iostream>
+
+1563563284 a:\arthur\ufpb\lablp1_roteiro1\include\empregado.h
+	<iostream>
+
+1563556429 source:a:\arthur\ufpb\lablp1_roteiro1\src\invoice.cpp
+	"Invoice.h"
+	<iostream>
+
+1563556065 a:\arthur\ufpb\lablp1_roteiro1\include\invoice.h
+	<iostream>
+
+1563642073 source:a:\arthur\ufpb\lablp1_roteiro1\main.cpp
+	<iostream>
+	"Data.h"
+	"Invoice.h"
+	"Empregado.h"
+	"Pessoa.h"
+	"Despesa.h"
+	"ControleDeGastos.h"
+	<iostream>
+
+1563565546 source:a:\arthur\ufpb\lablp1_roteiro1\src\pessoa.cpp
+	"Pessoa.h"
+	<iostream>
+
+1563565555 a:\arthur\ufpb\lablp1_roteiro1\include\pessoa.h
+	<iostream>
+
+1563642049 source:a:\arthur\ufpb\lablp1_roteiro1\src\controledegastos.cpp
+	"ControleDeGastos.h"
+	"Despesa.h"
+	<iostream>
+	<string>
+
+1563642030 a:\arthur\ufpb\lablp1_roteiro1\include\controledegastos.h
+	"Despesa.h"
+	<iostream>
+
+1563627295 a:\arthur\ufpb\lablp1_roteiro1\include\despesa.h
+	<iostream>
+
+1563628703 source:a:\arthur\ufpb\lablp1_roteiro1\src\despesa.cpp
+	"Despesa.h"
+	<iostream>
+

@@ -2,6 +2,10 @@
 #include "Data.h"
 #include "Invoice.h"
 #include "Empregado.h"
+#include "Pessoa.h"
+#include "Despesa.h"
+#include "ControleDeGastos.h"
+#include <iostream>
 using namespace std;
 
 int main()
@@ -26,23 +30,49 @@ int main()
     inv1->toString();
     inv2->toString();
 
-
     //Questão 3
-    Empregado *empr1 = new Empregado("Arthur","Mendes",1000);
+    Empregado empr1 ("Arthur","Mendes",1000);
     Empregado *empr2 = new Empregado("Derzu", "Omaia ", 17650);
 
-    empr1->toString();
+    empr1.toString();
     empr2->toString();
 
-    empr1->setSalario(empr1->getSlaraio()*1.1);
+    empr1.setSalario(empr1.getSlaraio()*1.1);
     cout<<"Depois do aumento \n";
-    empr1->toString();
-     */
+    empr1.toString();
+
 
      //Questão 4
 
-    Pessoa *pess1 = new Empregado("Arthur","Mendes",1000);
-    Pessoa *pess2 = new Empregado("Derzu", "Omaia ", 17650);
+    Pessoa pess1 ("Arthur Mendes",20,32555555);
+    Pessoa pess2 ("Derzu Omaia",21, 32167093);
+    pess1.toString();
+    pess2.toString();
 
+     //Questão 5
+
+    Despesa desp1(250,"luz");
+    Despesa desp2(85,"gas");
+    Despesa desp3(150,"aqua");
+
+    ControleDeGastos controle;
+
+    controle.setDespesa(desp1,1);
+    controle.setDespesa(desp2,2);
+    controle.setDespesa(desp3,3);
+
+    controle.toString();
+
+    cout<<"Total das despesas: "<<controle.calculaTotalDeDespesas()<<"\n";
+
+
+    if(controle.existeDespesaDoTipo("luz"))
+    {
+        cout<<"Tem Despesa do tipo luz.\n";
+    }
+
+    */
+
+    //Questão 6
 
 }
